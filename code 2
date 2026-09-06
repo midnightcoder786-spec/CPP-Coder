@@ -1,27 +1,14 @@
 #include<iostream>
 using namespace std;
-class student{
-private:
-string name;
+void main()
+{
 int marks;
-public:
-void input()
-{
-cout<<"enter your name";
-cin>>name;
-cout<<"enter marks";
+int age;
+float poercentage;
+cout<<"enter a marks";
 cin>>marks;
-};
-void display()
-{
-cout<<"name"<<name<<endl;
-cout<<"marks"<<marks<<endl;
-}
-};
-intmain()
-{
-student s;
-s.input();
-s.display();
-returm 0;
+cout<<"enter age";
+cin>> ag;
+cout<<(obt/total marks*100;
+cin>>percentage;
 }
