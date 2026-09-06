@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class student{
+private:
+string name;
+int marks;
+public:
+void input()
+{
+cout<<"enter your name";
+cin>>name;
+cout<<"enter marks";
+cin>>marks;
+};
+void display()
+{
+cout<<"name"<<name<<endl;
+cout<<"marks"<<marks<<endl;
+}
+};
+intmain()
+{
+student s;
+s.input();
+s.display();
+returm 0;
+}
